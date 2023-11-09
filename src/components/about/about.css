@@ -5,8 +5,9 @@
 }
 #about-career{
   line-height: 1.45rem;
-  font-family: "Sans-Serif" ;
+  font-family: serif !important;
   font-size: 1.2rem;
+  font-weight: 500;
   margin-bottom: 1rem;
   text-align: justify;  /* For Edge */
   text-align-last: left;
@@ -16,12 +17,16 @@
   font-size: 1.9rem;
   font-weight: bold;
   color: #94211d;
-  font-family: "Sans-Serif" ;
+  font-family: serif !important;
 }
 
 .carousel{
-  width:400px;
-
+  width:600px;
+  height: 640px;
+}
+.carousel > .carousel-inner > .carousel-item > img{
+  width:600px; /* Yeap you can change the width and height*/
+  height:600px;
 }
 
 .carousel p{
@@ -30,23 +35,22 @@
 
 #about-career-bottom{
   line-height: 1.45rem;
-  font-family: "Sans-Serif" ;
+  font-family: serif !important;
   font-size: 1.2rem;
   margin-bottom: 1.2rem;
-  margin-left: 25px;
-  margin-right: 80px;
 
+  font-weight: 500;
   text-align: justify;  /* For Edge */
   text-align-last: left;
 } 
 #about-career-under-picture{
 
   line-height: 1.45rem;
-  font-family: "Sans-Serif" ;
+  font-family: serif !important;
   font-size: 1.2rem;
   margin-bottom: 1.2rem;
+  font-weight: 500;
 
-  margin-right: 120px;
 
   text-align: justify;  /* For Edge */
   text-align-last: left;

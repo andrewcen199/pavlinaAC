@@ -24,7 +24,7 @@ const About = () => {
       <div className="container">
       
         <div className="row">
-          <div id="heading" className="mb-4">
+          <div id="heading" className="mb-5">
             <h1> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  "The creative minds play with the objects it loves." -Carl Gustav Jung</h1>  
           </div>
         </div>
@@ -37,8 +37,9 @@ const About = () => {
                  
                 />
             </div>
-            <div className="col-8">
+            <div className="col-9">
             <p id="about-career">
+
             
               A native of Macedonia,{" "}
               <strong className="about-career">Pavlina Proevska</strong> studied Public
@@ -69,7 +70,7 @@ const About = () => {
             </div>
           </div>
         <div className="row">
-          <div className="col-11">
+          <div className="col-12">
             <p id="about-career">
               She has recently completed two documentary films, The Promise of
               Perfume, and the biopic My American Pilgrimage. the making of The Promise of 
@@ -80,7 +81,7 @@ const About = () => {
               She is especially proud of a special recognition she received recently as her second feature film, 
               Happy Hell Night was admitted for permanent curating, at the Archives of Moving Images of the United States Libarary of Congress.
             </p>
-            <p id="about-career">
+            <p id="about-career" className="mb-4">
               Ms. Proevska is active in the promotion of Macedonia's cultural
               heritage as the founder and Executive Director of the Macedonian
               Arts Council. She is fluent in five languages and lives and works
@@ -93,11 +94,11 @@ const About = () => {
         </div>
 
         <div className="row">
-          <div id="heading" className="mb-4">
+          <div id="heading" className="mb-5">
             <h1> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "Production a combination of persistence...and blind faith."</h1>  
           </div>
           
-          <div className='carousel col-6'>
+          <div className='carousel col'>
           <Carousel data-bs-theme="dark">
             <Carousel.Item>
               <img
@@ -123,7 +124,8 @@ const About = () => {
             <Carousel.Item>
               <img
                 src={maestro}
-                alt="With Maestro Simon Trpchevski, 2001"      
+                alt="With Maestro Simon Trpchevski, 2001"    
+                height="600px"  
               />
               <Carousel.Caption>
                 <p>"With Maestro Simon Trpchevski, 2001"</p>
@@ -164,7 +166,7 @@ const About = () => {
           
           </div>
 
-          <div className="col-8">
+          <div className="col">
             <p id="about-career-bottom" >
               <strong className="fs-5">PAVLINA Ltd.</strong> is a New York based
               independent production company engaged in the development and
@@ -198,22 +200,19 @@ const About = () => {
               the past ten years the company has financed the acquisition and
               development of several children's properties.
             </p>
+            <p id="about-career-bottom">
+              The company's strength is the original content of the stories it
+              develops and produced and while through its feature films it
+              offers popular entertainment, the documentaries celebrate people
+              whose lives have left an imprint on the human experience.
+            </p>
           
 
           </div>
 
 
         </div>
-        <div className="row">
-           <div className='col'>
-            <p id="about-career-under-picture">
-              The company's strength is the original content of the stories it
-              develops and produced and while through its feature films it
-              offers popular entertainment, the documentaries celebrate people
-              whose lives have left an imprint on the human experience.
-            </p>
-           </div>
-        </div>
+
 
 
       </div>
