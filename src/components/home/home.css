@@ -98,3 +98,7 @@ main section#quote-container p::before {
 #bottom-image{
 
 }
+
+.banner-stretch{
+  width:100px;
+}

@@ -6,6 +6,7 @@ import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import {FaSkype} from "react-icons/fa";
+import { faSquareWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
 // import SimpleMap from "./map";
 import {
@@ -58,11 +59,11 @@ const Contact = () => {
         </div> */}
         <div className="contact-info ">
           <div className="row">
-            <div className="contact-box col-6">
+            <div className="contact-box col-8">
               <div className="pavlina-contact">
               
                 <h3><FontAwesomeIcon icon={faLocationDot} /> 380 Rector Pl. New York, NY 10280 USA</h3>
-                <h3> <FontAwesomeIcon icon={faPhone} />   <FaWhatsapp/>   <FaViber/>  (212)799-0009</h3>
+                <h3>   <FontAwesomeIcon icon={faSquareWhatsapp} /> <FaViber/>  (212)799-0009</h3>
                 <h3> <FaSkype/>Resen51</h3>
                 <h3><FontAwesomeIcon icon={faEnvelope} /> pavlinaltd@gmail.com</h3>
                 
@@ -88,7 +89,7 @@ const Contact = () => {
              
 
             
-            <div className="contact-box col-6 ">
+            <div className="contact-box col-4">
               <form
                 id="contact-form"
                 ref={form}
@@ -96,7 +97,7 @@ const Contact = () => {
                 autoComplete="off"
                 className="h-100"
               >
-                <div className="mb-1">
+                <div className="ml-5 mb-1">
                   <input name="name" placeholder="Name" type="text" required />
                 </div>
                 <div className="mb-1">
@@ -135,10 +136,10 @@ const Contact = () => {
             </div>
 
 
-            <div className="row mt-5 pt-5 pb-5" >
-            <div className="contact-box row col-12 ">
+            <div className="row mt-5 pt-5 pb-5 mx-5" >
+            <div className="contact-box row col ">
               <iframe
-                className="google-map h-150 w-100"
+                className="google-map"
                 title="map"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.404149276478!2d-74.02011378453007!3d40.70911877933224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a1021509aa5%3A0x875c1c5d6844bf1!2s380%20Rector%20Pl%2C%20New%20York%2C%20NY%2010280%2C%20USA!5e0!3m2!1sen!2sbr!4v1673380162092!5m2!1sen!2sbr"
                 allowfullscreen=""

@@ -25,7 +25,7 @@ const About = () => {
       
         <div className="row">
           <div id="heading" className="mb-5">
-            <h1> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  "The creative minds play with the objects it loves." -Carl Gustav Jung</h1>  
+            <h1>  "The creative minds play with the objects it loves." -Carl Gustav Jung</h1>  
           </div>
         </div>
 
@@ -95,7 +95,7 @@ const About = () => {
 
         <div className="row">
           <div id="heading" className="mb-5">
-            <h1> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "Production a combination of persistence...and blind faith."</h1>  
+            <h1>"Production a combination of persistence...and blind faith."</h1>  
           </div>
           
           <div className='carousel col'>

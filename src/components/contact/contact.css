@@ -30,7 +30,7 @@ main#contact section.upper-section div.contact-info h3 {
 }
 main#contact section.upper-section form input[type=text],
 main#contact section.upper-section form input[type=email] {
-  width: 75%;
+  width: 100%;
   height: 30px;
   margin-bottom: 10px;
   border: 0.5px solid #94211d;
@@ -42,7 +42,7 @@ main#contact section.upper-section form input[type=email] {
 }
 main#contact section.upper-section form div.textarea {
   height: 40.5%;
-  width: 75%;
+  width: 100%;
 }
 main#contact section.upper-section form div.textarea textarea {
   border: 0.5px solid #94211d;
@@ -64,7 +64,7 @@ main#contact section.upper-section form input[type=submit] {
   background-color: transparent;
   border: 0.5px solid #94211d;
   transition: all 0.25s ease;
-  margin-right: 77.5%;
+  
   
 
   
@@ -104,8 +104,7 @@ main#contact section.upper-section form input[type=submit]:hover {
     outline: none;
   }
   main#contact .google-map {
-    height: 300px;
-    min-height: 500px;
+ 
   }
   .gm-style-moc{
     margin-top: 10px;
@@ -126,5 +125,6 @@ main#contact section.upper-section form input[type=submit]:hover {
 .contact-box iframe{
   position: relative;
   height: 350px;
-  width: 500px;
+  width: 99%;
+
 }

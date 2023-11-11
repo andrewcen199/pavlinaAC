@@ -129,12 +129,17 @@ const Home = () => {
           </div>
         </section> */}
         <section className="films container px-md-0 m-0 p-3 py-4 p-lg-0 px-lg-1">
-          <div
-            className="col-12 d-flex align-items-center justify-content-center p-3 py-md-4 p-xl-5 pb-xl-0 px-xl-0 m-0 rounded text-center"
-            style={{ backgroundColor: "#f0f0f0", minHeight: "50px" }}
-          >
-            <h2 className="my-0">Active Productions</h2>
+          <div className="row">
+          <div className="col-2"></div>
+              <div
+              className="col-8 d-flex align-items-center justify-content-center p-3 py-md-4 p-xl-5 pb-xl-0 px-xl-0 m-0 rounded text-center"
+              style={{ backgroundColor: "#f0f0f0", minHeight: "50px" }}
+            >
+              <h2 className="my-0 ">Active Productions</h2>
+            </div>
+            <div className="col-2"></div>
           </div>
+
           <div className="w-100 p-0 p-xl-0 py-xl-3">
             <div className="row p-0 pb-4 p-xl-0 py-xl-3">
               <div className="film-poster py-3 py-md-2 col col-md-4 col-6 pt-lg-4 mt-lg-0">
@@ -168,12 +173,14 @@ const Home = () => {
           </div>
           <div className="w-100 p-0 p-xl-0 py-xl-3">
             <div className="row book-row p-0 pb-md-4 p-xl-5 py-xl-3 px-xl-0 justify-content-center">
-              <div
-                className="col-12 d-flex align-items-center justify-content-center p-3 py-md-4 p-xl-5 pb-xl-0 px-xl-0 m-0 rounded text-center"
-                style={{ backgroundColor: "#f0f0f0", minHeight: "50px" }}
-              >
-                <h2 className="my-0">Media Projects</h2>
-              </div>
+            <div className="col-2"></div>
+                <div
+                  className="col-8 d-flex align-items-center justify-content-center p-3 py-md-4 p-xl-5 pb-xl-0 px-xl-0 m-0 rounded text-center"
+                  style={{ backgroundColor: "#f0f0f0", minHeight: "50px" }}
+                >
+                  <h2 className="my-0">Media Projects</h2>
+                </div>
+              <div className="col-2"></div>
               <div className="film-poster row py-2 ps-md-4 py-md-2 pe-lg-4 col-2 col-lg-6 text-center">
                 <div className="row bg-info rounded mt-4 ">
                   <Link to="/between-two-worlds" className="col-12 col-lg">
@@ -280,12 +287,16 @@ const Home = () => {
           <div className="col-12 m-0 p-0 p-xl-0 py-xl-3">
             <hr />
           </div>
+          <div className="row">
+          <div className="col-2"></div>
+            <div
+              className="col-8 d-flex align-items-center justify-content-center p-3 py-md-4 p-xl-5 pb-xl-0 px-xl-0 m-0 rounded text-center"
+              style={{ backgroundColor: "#f0f0f0", minHeight: "50px" }}
+            >
+              <h2 className="my-0">In Development</h2>
+            </div>
+            <div className="col-2"></div>
 
-          <div
-            className="col-12 d-flex align-items-center justify-content-center p-3 py-md-4 p-xl-5 pb-xl-0 px-xl-0 m-0 rounded text-center"
-            style={{ backgroundColor: "#f0f0f0", minHeight: "50px" }}
-          >
-            <h2 className="my-0">In Development</h2>
           </div>
 
           <div className="w-100 p-0 p-xl-0 py-xl-3 d-flex justify-content-center mt-2">
