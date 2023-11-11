@@ -42,7 +42,7 @@ import TMS2 from "../../assets/gallery/magic2.webp";
 import TMS3 from "../../assets/gallery/magic3.webp";
 import TMS4 from "../../assets/gallery/magic4.webp";
 import TMS5 from "../../assets/gallery/magic5.webp";
-import TMS6 from "../../assets/gallery/magic6.webp";
+import TMS6 from "../../assets/gallery/magic6.jpeg";
 
 const Gallery = () => {
   useEffect(() => window.scroll(0, 0));
