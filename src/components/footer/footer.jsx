@@ -8,7 +8,7 @@ import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import {FaSkype} from "react-icons/fa";
 import { Link } from "react-router-dom";
-
+import { faSquareWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import {
   FaFacebookSquare,
   FaLinkedin,
@@ -76,7 +76,7 @@ const Footer = () => {
             </div>
             <div className=" bottom-contact col">
                 <h3><FontAwesomeIcon icon={faLocationDot} />  380 Rector Pl. New York, NY 10280 USA</h3>
-                <h3> <FontAwesomeIcon icon={faPhone} />  <FaWhatsapp/>   <FaViber/>  (212)799-0009</h3>
+                <h3>  <FontAwesomeIcon icon={faSquareWhatsapp} />    <FaViber/>  (212)799-0009</h3>
                 <h3> <FaSkype/> Resen51</h3>
                 
                 <h3><FontAwesomeIcon icon={faEnvelope} />  pavlinaltd@gmail.com</h3>
