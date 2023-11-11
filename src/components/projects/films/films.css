@@ -42,3 +42,13 @@ main.film img.header {
     font-size: 1.5rem;
   }
 }
+
+.outside{
+  display: flex;
+  height: 100%;
+}
+
+.outside #test{
+  position : absolute;
+  bottom   : 0;
+}

@@ -34,7 +34,7 @@ const Future = () => {
               </div>
               <section className="synopsis container p-3 py-4 py-md-0 m-0">
                 <div className="row m-0 py-4 py-md-0 py-md-5 px-md-0 m-0">
-                  <div className="col-12 col-md-6 ps-0 pe-0 pe-lg-5 mb-4 mb-md-0">
+                  <div className="col">
                     <p className="mb-3 mb-lg-4">
                       Borders in Heaven is a fish-out-of-water romantic comedy
                       that takes place in a small village in Macedonia called
@@ -60,16 +60,20 @@ const Future = () => {
                     </p>
                     <p>Slated for spring 2022</p>
                   </div>
-                  <div className="col-12 col-md-6 mt-4 mt-md-0 d-flex align-items-center">
-                    <div className="ratio ratio-16x9">
-                      <iframe
-                        src="https://www.youtube.com/embed/q4R1JfTIOpQ"
-                        title="YouTube video player"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen
-                      ></iframe>
+              
+                    <div className="col ">
+                      <div className="flexbox ratio ratio-16x9" id="test">
+                        <iframe
+                          src="https://www.youtube.com/embed/1HGMugATEMw"
+                          title="YouTube video player"
+                          
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                          allowfullscreen
+                          
+                        ></iframe>
+                      </div>
                     </div>
-                  </div>
+                  
                 </div>
                 <div className="col-12" id="the-magic-snowman-returns">
                   <hr className="w-100 mb-5" />
