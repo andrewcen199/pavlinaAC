@@ -75,12 +75,14 @@ const Future = () => {
                     </div>
                   
                 </div>
+
+
                 <div className="col-12" id="the-magic-snowman-returns">
                   <hr className="w-100 mb-5" />
                   <h1>The Magic Snowman Returns</h1>
                 </div>
                 <div className="row m-0 py-4 py-md-0 py-md-5 px-md-0 m-0">
-                  <div className="col-12 col-md-6 ps-0 pe-0 pe-lg-5 mb-4 mb-md-0">
+                  <div className="col">
                     <p className="mb-3 mb-lg-4">
                       In a snow covered field somewhere in the world, Lumiukko,
                       the magic snowman, is witnessing spring. All around him
@@ -104,7 +106,7 @@ const Future = () => {
                       father, a local owner of a music store.
                     </p>
                   </div>
-                  <div className="col-12 col-md-6 mt-4 mt-md-0 d-flex align-items-center">
+                  <div className="col">
                     <img
                       src={SMR}
                       alt="The Magic Snowman Returns"
