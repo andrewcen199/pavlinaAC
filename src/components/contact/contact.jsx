@@ -59,7 +59,7 @@ const Contact = () => {
         </div> */}
         <div className="contact-info ">
           <div className="row">
-            <div className="contact-box col-8">
+            <div className="contact-box col col-xs-12  ">
               <div className="pavlina-contact">
               
                 <h3><FontAwesomeIcon icon={faLocationDot} /> 380 Rector Pl. New York, NY 10280 USA</h3>
@@ -72,12 +72,12 @@ const Contact = () => {
             
           
               <div className = 'row sub-heading'>
-                <div className="col">
+                <div className="col ">
                     <h2 className="mb-1 mt-1">Macedonian Arts Council Inc.</h2>     
                     <h4 className="mb-1">info@macedonianarts.org</h4>
                     <h4 className="mb-1">212-799-0009</h4>
                   </div>
-                <div className="col"> 
+                <div className="col col-xs-12"> 
                   <h2 className="mb-1 mt-1">FilmsZaNas d.o.o.e.l</h2>
                   <h4 className="mb-1">filmszanas@gmail.com</h4>
                   <h4 className="mb-1">212-799-0009</h4>
@@ -89,7 +89,7 @@ const Contact = () => {
              
 
             
-            <div className="contact-box col-4">
+            <div className="contact-box col-md-4 col-xs-12">
               <form
                 id="contact-form"
                 ref={form}
@@ -136,8 +136,8 @@ const Contact = () => {
             </div>
 
 
-            <div className="row mt-5 pt-5 pb-5 mx-5" >
-            <div className="contact-box row col ">
+            <div className="row mt-5 pt-5 pb-5  mx-auto" >
+            <div className="contact-box row col-md-12 col-xs-12 ">
               <iframe
                 className="google-map"
                 title="map"

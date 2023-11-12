@@ -30,14 +30,14 @@ const About = () => {
         </div>
 
           <div className = "row ">
-            <div className="col-3">
+            <div className="col-md-3 col-xs-12">
               <img className="headshot"
                   src={pavlina}
                   alt="Pavlina Proevska"
                  
                 />
             </div>
-            <div className="col-9">
+            <div className="col-md-9 col-xs-12">
             <p id="about-career">
 
             
@@ -98,7 +98,7 @@ const About = () => {
             <h1>"Production a combination of persistence...and blind faith."</h1>  
           </div>
           
-          <div className='carousel col'>
+          <div className='carousel col-md col-xs-12'>
           <Carousel data-bs-theme="dark">
             <Carousel.Item>
               <img
@@ -166,7 +166,7 @@ const About = () => {
           
           </div>
 
-          <div className="col">
+          <div className="col-md col-xs-12">
             <p id="about-career-bottom" >
               <strong className="fs-5">PAVLINA Ltd.</strong> is a New York based
               independent production company engaged in the development and

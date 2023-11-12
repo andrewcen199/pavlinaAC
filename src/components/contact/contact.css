@@ -75,7 +75,7 @@ main#contact section.upper-section form input[type=submit]:hover {
   font-weight: 500;
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 600.98px) {
   main#contact section.upper-section h1 {
     font-size: 1.7rem;
   }
@@ -116,15 +116,20 @@ main#contact section.upper-section form input[type=submit]:hover {
   line-height: 2rem;
   font-weight: bold;
   text-align: center;
+ 
 }
 .sub-heading{
   color: #94211d;
   line-height: 2rem;
   text-align: center;
+  
 }
 .contact-box iframe{
   position: relative;
   height: 350px;
-  width: 99%;
+  width: 100%;
+  margin-left:  45px;
+  
+  
 
 }
