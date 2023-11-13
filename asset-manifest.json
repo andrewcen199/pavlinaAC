@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/pavlinaAC/static/css/main.0404127b.css",
-    "main.js": "/pavlinaAC/static/js/main.37f06091.js",
+    "main.css": "/pavlinaAC/static/css/main.380d4f74.css",
+    "main.js": "/pavlinaAC/static/js/main.d3912c11.js",
     "static/js/787.36433f6a.chunk.js": "/pavlinaAC/static/js/787.36433f6a.chunk.js",
     "static/media/the-magic-snowman-redux.png": "/pavlinaAC/static/media/the-magic-snowman-redux.3a35172621282b89f9ac.png",
     "static/media/the-magic-snowman-audiobook.png": "/pavlinaAC/static/media/the-magic-snowman-audiobook.99a86946514752da52d4.png",
@@ -69,12 +69,12 @@
     "static/media/perfume6.webp": "/pavlinaAC/static/media/perfume6.55da8cb7418c49f2279b.webp",
     "static/media/magic1.webp": "/pavlinaAC/static/media/magic1.e9a4eb609490b9c64327.webp",
     "index.html": "/pavlinaAC/index.html",
-    "main.0404127b.css.map": "/pavlinaAC/static/css/main.0404127b.css.map",
-    "main.37f06091.js.map": "/pavlinaAC/static/js/main.37f06091.js.map",
+    "main.380d4f74.css.map": "/pavlinaAC/static/css/main.380d4f74.css.map",
+    "main.d3912c11.js.map": "/pavlinaAC/static/js/main.d3912c11.js.map",
     "787.36433f6a.chunk.js.map": "/pavlinaAC/static/js/787.36433f6a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0404127b.css",
-    "static/js/main.37f06091.js"
+    "static/css/main.380d4f74.css",
+    "static/js/main.d3912c11.js"
   ]
 }
