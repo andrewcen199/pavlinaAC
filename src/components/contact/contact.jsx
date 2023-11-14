@@ -63,7 +63,7 @@ const Contact = () => {
               <div className="pavlina-contact">
               
                 <h3><FontAwesomeIcon icon={faLocationDot} /> 380 Rector Pl. New York, NY 10280 USA</h3>
-                <h3>   <FontAwesomeIcon icon={faSquareWhatsapp} /> <FaViber/>  (212)799-0009</h3>
+                <h3>   <FaViber/> <FontAwesomeIcon icon={faSquareWhatsapp} />   (212)799-0009</h3>
                 <h3> <FaSkype/>Resen51</h3>
                 <h3><FontAwesomeIcon icon={faEnvelope} /> pavlinaltd@gmail.com</h3>
                 
