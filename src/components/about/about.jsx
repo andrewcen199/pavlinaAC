@@ -94,7 +94,7 @@ const About = () => {
         </div>
 
         <div className="row">
-          <div id="heading" className="mb-5">
+          <div id="heading" className="my-5">
             <h1>"Production a combination of persistence...and blind faith."</h1>  
           </div>
           
