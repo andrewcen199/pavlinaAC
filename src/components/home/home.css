@@ -1,3 +1,5 @@
+
+
 @charset "UTF-8";
 main div.header {
   width: 100%;
@@ -8,7 +10,7 @@ main div.header img {
   object-fit: cover;
 }
 main div.intro h2 {
-  font-family: "Roboto", sans-serif !important;
+  font-family: sans-serif !important;
   font-size: .2 rem;
   font-weight: normal;
   line-height: 1.5;
@@ -21,12 +23,7 @@ main section.films h2 {
   font-weight: 600;
   padding-bottom: 30px ;
 }
-main section.films h3 {
-  color: #000;
-  font-size: 1.5rem;
-  font-weight: 400;
-  font-family: "Roboto", sans-serif !important;
-}
+
 .indev {
 
   height: 100%;
@@ -47,14 +44,14 @@ main section#quote-container h3 span {
 }
 main section#quote-container h3 span::before {
   content: "— ";
-  font-family: "times new roman", serif;
+  font-family: serif;
 }
 main section#quote-container p {
   font-weight: 400;
 }
 main section#quote-container p::before {
   content: "— ";
-  font-family: "times new roman", serif;
+  font-family:  serif;
 }
 
 
@@ -100,13 +97,13 @@ main section#quote-container p::before {
 }
 
 .banner-stretch{
-  width:100px;
+  
 }
 
 .book-box-item-right{
   text-align: center;
   background-color: #FFC72C;
-  height: 600px;
+  height: 450px;
   border-left: 30px solid white;
   border-right: 50px solid white;
   
@@ -115,8 +112,19 @@ main section#quote-container p::before {
 .book-box-item-left{
   text-align: center;
   background-color: #99FFFF;
-  height: 600px;
+  height: 450px;
   border-right: 30px solid white;
   border-left: 50px solid white;
+  font-family: serif !important;
+  font-weight: bold;
+  
+}
+
+
+#book-box-text{
+  line-height: 2.1rem ; 
+  font-family: serif !important;
+  font-weight: bold;
+  font-size: 1.5rem;
   
 }

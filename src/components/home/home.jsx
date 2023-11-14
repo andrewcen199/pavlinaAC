@@ -130,14 +130,14 @@ const Home = () => {
         </section> */}
         <section className="films container px-md-0 m-0 p-3 py-4 p-lg-0 px-lg-1">
           <div className="row">
-          <div className="col-2"></div>
+          
               <div
-              className="col-8 d-flex align-items-center justify-content-center p-3 py-md-4 p-xl-5 pb-xl-0 px-xl-0 m-0 rounded text-center"
+              className="col-12 d-flex align-items-center justify-content-center p-3 py-md-4 p-xl-5 pb-xl-0 px-xl-0 m-0 rounded text-center"
               style={{ backgroundColor: "#f0f0f0", minHeight: "50px" }}
             >
               <h2 className="my-0 ">Active Productions</h2>
             </div>
-            <div className="col-2"></div>
+          
           </div>
 
           <div className="w-100 p-0 p-xl-0 py-xl-3">
@@ -223,8 +223,8 @@ const Home = () => {
             <div className="row two-book-boxes">
               <div className="col-6 book-box-item-left">
                  
-                <div className="row">
-                  <div className="col">
+                <div className="row align-items-center">
+                  <div className="col-6 mt-3">
                   <Link to="/between-two-worlds" className="book">
                       <img
                         src={BetweenTwoWorlds}
@@ -236,9 +236,13 @@ const Home = () => {
                    </Link>
                  
                   </div>
-                  <div className="col">
-                      help 
-                   </div>'
+                  <div className="col-6" id='book-box-text'>
+                    <h3>Poetry read by Lily Talevski</h3>
+                    <br></br>
+                    <h3>Tori Naumovski</h3>
+                    <br></br>
+                    <h3>Francis Dumaurier</h3>
+                  </div>
                 </div>
 
         
@@ -247,7 +251,33 @@ const Home = () => {
             
               
               <div className="col book-box-item-right" >
-                  yellow box
+                <div className="row align-items-center">
+                  <div className="col-6 mt-3">
+                    <Link to="/the-magic-snowman-book" className="book">
+                        <img
+                          src={TheMagicSnowmanAudiobook}
+                          className=""
+                          alt="Between Two Worlds"
+                          width="95%"
+                          height= "100%"
+                        />
+                    </Link>
+                  
+                  </div>
+                  <div className="col-6" id='book-box-text'>
+                 
+                      <h3 >With Sir Roger Moore as the voice of The Magic Snowman</h3>
+                      <br></br>
+                      <h3>Narrated by Lilly Talevski</h3>
+                      <br></br>
+                      <h3>Music by ben Boian B. Goss</h3>
+                      <br></br>
+                      <h3>Sound Design by Mason Ryan</h3>
+              
+                  </div>
+                </div>
+              
+
               </div>
             </div>
           </div>
@@ -256,14 +286,14 @@ const Home = () => {
           
           </div>
           <div className="row">
-          <div className="col-2"></div>
+        
             <div
-              className="col-8 d-flex align-items-center justify-content-center p-3 py-md-4 p-xl-5 pb-xl-0 px-xl-0 m-0 rounded text-center"
+              className="col-12 d-flex align-items-center justify-content-center p-3 py-md-4 p-xl-5 pb-xl-0 px-xl-0 m-0 rounded text-center"
               style={{ backgroundColor: "#f0f0f0", minHeight: "50px" }}
             >
               <h2 className="my-0">In Development</h2>
             </div>
-            <div className="col-2"></div>
+          
 
           </div>
 
