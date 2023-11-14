@@ -5,7 +5,7 @@ import "./home.css";
 import TheMagicSnowmanRedux from "../../assets/films/posters/the-magic-snowman-redux.png";
 import MyHeartIsNoLongerAnOrphan from "../../assets/films/posters/my-heart-is-no-longer-an-orphan.png";
 import GustellaDances from "../../assets/films/posters/gustella-dances.png";
-import BetweenTwoWorlds from "../../assets/films/posters/between-two-worlds.png";
+import BetweenTwoWorlds from "../../assets/books/between-two-worlds-new.png";
 import TheMagicSnowmanAudiobook from "../../assets/films/posters/the-magic-snowman-audiobook.png";
 import BordersInHeaven from "../../assets/films/posters/borders in heaven.jpg";
 import Keratza from "../../assets/films/posters/keratza-poster.jpeg";
@@ -171,9 +171,12 @@ const Home = () => {
               </div>
             </div>
           </div>
+
+
+
           <div className="w-100 p-0 p-xl-0 py-xl-3">
             <div className="row book-row p-0 pb-md-4 p-xl-5 py-xl-3 px-xl-0 justify-content-center">
-            <div className="col-2"></div>
+            <div className="col"></div>
                 <div
                   className="col-8 d-flex align-items-center justify-content-center p-3 py-md-4 p-xl-5 pb-xl-0 px-xl-0 m-0 rounded text-center"
                   style={{ backgroundColor: "#f0f0f0", minHeight: "50px" }}
@@ -182,78 +185,12 @@ const Home = () => {
                 </div>
               <div className="col-2"></div>
               <div className="film-poster row py-2 ps-md-4 py-md-2 pe-lg-4 col-2 col-lg-6 text-center">
-                <div className="row bg-info rounded mt-4 ">
-                  <Link to="/between-two-worlds" className="col-12 col-lg">
-                    <img
-                  
-                      src={BetweenTwoWorlds}
-                      id="bottom-image"
-                      className="img-fluid rounded-3 p-4 h-100"
-                      alt="Between Two Worlds"
-                    />
-                  </Link>
-                  <div className="col pt-2 pb-2 py-lg-5 pt-lg-4 d-none d-lg-block">
-                    <h3 className="pb-md-2 pb-2 mt-lg-2">Between Two Worlds</h3>
-                    <p>Written by Мишeko</p>
-                      <br></br>
-                      <br></br>
-                      <br></br>
-                      <br></br>
-                      <br></br>
-                      <br></br>
-                      <br></br>
-                      <br></br>
-                      <br></br>
-                      <br></br>
-                      <br></br>
-                      <br></br>
-                      <br></br>
-                      <br></br>
-                      <br></br>
-                      <br></br>
-                      <br></br>
-                      <br></br>
-                      <br></br>
-                      <br></br>
-                      <p class="text-center my-2">Poetry read by Lily Talevski</p>
-                      <p class="text-center my-2">Tori Naumovski</p>
-                      <p class="text-center my-2">Francis Dumaurier</p>
-                  </div>
-                </div>
+  
               </div>
+
+              
               <div className="film-poster row py-3 ps-md-4 py-md-2 ps-lg-4 col-2 col-lg-6">
-                <div className="row bg-warning rounded mt-4">
-                  <Link to="/the-magic-snowman-book" className="col-12 col-lg">
-                    <img
-                      src={TheMagicSnowmanAudiobook}
-                      className="img-fluid rounded-3 p-4 h-100"
-                      alt="The Magic Snowman"
-                    />
-                  </Link>
-                  <div className="col pt-2 py-lg-5 pt-lg-4 d-none d-lg-block text-center">
-                    <h3 className="pb-md-2 pb-2 mt-lg-2">The Magic Snowman</h3>
-                    <div class="d-flex flex-column justify-content-between align-items-center mt-4">
-                      <p class="text-center my-2">
-                        With Sir Roger Moore as the voice of The Magic Snowman
-                      </p>
-                      <p class="text-center my-2">Narrated by Lilly Talevski</p>
-                      <p class="text-center my-2">Music by ben Boian B. Goss</p>
-                      <p class="text-center my-2">Sound Design by Mason Ryan</p>
-                      <br></br>
-                      <br></br>
-                      <br></br>
-                      <br></br>
-                      <br></br>
-                      <br></br>
-                      <br></br>
-                      <br></br>
-                      <br></br>
-                      <br></br>
-                      <br></br>
-                      <p class="text-center my-2">Release Date: April 2023</p>
-                    </div>
-                  </div>
-                </div>
+     
               </div>
               <div className="py-3 pe-md-4 py-md-2 col-6 d-lg-none">
                 <h3 className="pb-md-2 pb-2">Between Two Worlds</h3>
@@ -282,10 +219,41 @@ const Home = () => {
                 </p>
               </div>
             </div>
+          
+            <div className="row two-book-boxes">
+              <div className="col-6 book-box-item-left">
+                 
+                <div className="row">
+                  <div className="col">
+                  <Link to="/between-two-worlds" className="book">
+                      <img
+                        src={BetweenTwoWorlds}
+                        className=""
+                        alt="Between Two Worlds"
+                        width="95%"
+                        height= "100%"
+                      />
+                   </Link>
+                 
+                  </div>
+                  <div className="col">
+                      help 
+                   </div>'
+                </div>
+
+        
+
+              </div>
+            
+              
+              <div className="col book-box-item-right" >
+                  yellow box
+              </div>
+            </div>
           </div>
 
           <div className="col-12 m-0 p-0 p-xl-0 py-xl-3">
-            <hr />
+          
           </div>
           <div className="row">
           <div className="col-2"></div>

@@ -102,3 +102,21 @@ main section#quote-container p::before {
 .banner-stretch{
   width:100px;
 }
+
+.book-box-item-right{
+  text-align: center;
+  background-color: #FFC72C;
+  height: 600px;
+  border-left: 30px solid white;
+  border-right: 50px solid white;
+  
+
+}
+.book-box-item-left{
+  text-align: center;
+  background-color: #99FFFF;
+  height: 600px;
+  border-right: 30px solid white;
+  border-left: 50px solid white;
+  
+}
