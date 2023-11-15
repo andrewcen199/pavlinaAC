@@ -244,9 +244,6 @@ const Home = () => {
                     <h3>Francis Dumaurier</h3>
                   </div>
                 </div>
-
-        
-
               </div>
             
               
