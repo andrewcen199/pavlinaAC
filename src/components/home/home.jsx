@@ -226,7 +226,8 @@ const Home = () => {
                   </div>
                 </div>
               </div>
-            
+
+         
               
               <div className="col  d-none d-lg-block book-box-item-right" >
                 <div className="row align-items-center">
@@ -261,6 +262,17 @@ const Home = () => {
 
 
           <div className=" d-sm-none small-screen-media-projects">
+           <div className="row mb-4">
+          
+              <div
+                className="col-12 d-flex align-items-center justify-content-center p-3 py-md-4 p-xl-5 pb-xl-0 px-xl-0 m-0 rounded text-center"
+                style={{ backgroundColor: "#f0f0f0", minHeight: "50px" }}
+              >
+                <h2 className="my-0">Media Projects</h2>
+              </div>
+      
+
+            </div>
             
             <div className="row  small-blue-box align-items-center">
               
