@@ -178,7 +178,7 @@ const Home = () => {
             <div className="row book-row p-0 pb-md-4 p-xl-5 py-xl-3 px-xl-0 justify-content-center">
             <div className="col"></div>
                 <div
-                  className="col-8 d-flex align-items-center justify-content-center p-3 py-md-4 p-xl-5 pb-xl-0 px-xl-0 m-0 rounded text-center"
+                  className="col-8  d-none d-lg-block d-flex align-items-center justify-content-center p-3 py-md-4 p-xl-5 pb-xl-0 px-xl-0 m-0 rounded text-center"
                   style={{ backgroundColor: "#f0f0f0", minHeight: "50px" }}
                 >
                   <h2 className="my-0">Media Projects</h2>
@@ -192,36 +192,17 @@ const Home = () => {
               <div className="film-poster row py-3 ps-md-4 py-md-2 ps-lg-4 col-2 col-lg-6">
      
               </div>
-              <div className="py-3 pe-md-4 py-md-2 col-6 d-lg-none">
-                <h3 className="pb-md-2 pb-2">Between Two Worlds</h3>
-                <p>Written by Мишeko</p>
-              </div>
-              <div className="py-3 pe-md-4 py-md-2 col-6 d-lg-none">
-                <h3 className="pb-md-2 pb-2">The Magic Snowman</h3>
-                <p>
-                  With Sir Roger Moore
-                  <br />
-                  as THE VOICE of The Magic Snowman
-                  <br />
-                  <br />
-                  <br></br>
-                      <br></br>
-                      <br></br>
-                      <br></br>
-                      <br></br>
-                  Narrated by Lilly Talevski
-                  <br />
-                  Music by ben Boian B. Goss
-                  <br />
-                  Sound Design by Mason Ryan
-                  <br />
-                  Release Date: April 2023
-                </p>
-              </div>
+
+             
             </div>
+
+
           
-            <div className="row two-book-boxes">
-              <div className="col-6 book-box-item-left">
+          
+
+          
+            <div className="row two-book-boxes"> 
+              <div className=" col-6  d-none d-lg-block book-box-item-left">
                  
                 <div className="row align-items-center">
                   <div className="col-6 mt-3">
@@ -247,7 +228,7 @@ const Home = () => {
               </div>
             
               
-              <div className="col book-box-item-right" >
+              <div className="col  d-none d-lg-block book-box-item-right" >
                 <div className="row align-items-center">
                   <div className="col-6 mt-3">
                     <Link to="/the-magic-snowman-book" className="book">
@@ -270,14 +251,79 @@ const Home = () => {
                       <h3>Music by ben Boian B. Goss</h3>
                       <br></br>
                       <h3>Sound Design by Mason Ryan</h3>
-              
                   </div>
                 </div>
-              
-
               </div>
             </div>
           </div>
+
+
+
+
+          <div className=" d-sm-none small-screen-media-projects">
+            
+            <div className="row  small-blue-box align-items-center">
+              
+                <div className="col-6 mt-3">
+                  <Link to="/between-two-worlds" className="">
+                      <img
+                          src={BetweenTwoWorlds}
+                          className=""
+                          alt="Between Two Worlds"
+                          width="100%"
+                          height= "90%"
+                      />
+                  </Link>
+                
+                </div>
+                <div className="col-6 mt-3 " id="book-box-text-small">
+                  <div className="col" >
+                    <h3 id='book-box-text-small'>Poetry read by Lily Talevski</h3>
+                    <br></br>
+                    <h3 id='book-box-text-small'>Tori Naumovski</h3>
+                    <br></br>
+                    <h3 id='book-box-text-small'>Francis Dumaurier</h3>
+                  </div>
+                </div>
+
+              
+            </div>
+            </div>
+            <div className=" d-sm-none small-screen-media-projects">
+            <div className="row  small-yellow-box align-items-center">
+              
+                <div className="col-6 mt-3">
+                  <Link to="/the-magic-snowman-book" className="book">
+                        <img
+                          src={TheMagicSnowmanAudiobook}
+                          className=""
+                          alt="Between Two Worlds"
+                          width="95%"
+                          height= "100%"
+                        />
+                  </Link>
+                
+                </div>
+                <div className="col-6 mt-3 " id="book-box-text-small">
+                  <div className="col" >
+                      <h3 >With Sir Roger Moore as the voice of The Magic Snowman</h3>
+                      <br></br>
+                      <h3>Narrated by Lilly Talevski</h3>
+                      <br></br>
+                      <h3>Music by ben Boian B. Goss</h3>
+                      <br></br>
+                      <h3>Sound Design by Mason Ryan</h3>
+                  </div>
+                </div>
+
+              
+            </div>
+          </div>
+    
+    
+    
+
+
 
           <div className="col-12 m-0 p-0 p-xl-0 py-xl-3">
           
