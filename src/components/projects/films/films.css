@@ -15,7 +15,7 @@ main.film section.synopsis .quote p {
   color: #94211d;
 }
 main.film audio {
-  width: 30px;
+  width: 300px;
   height: 20px;
 }
 main.film img {
@@ -43,3 +43,6 @@ main.film img.header {
   }
 }
 
+audio-poem{
+  line-height: 1.3rem;
+}

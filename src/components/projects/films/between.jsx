@@ -5,12 +5,15 @@ import Poster from "../../../assets/films/posters/between-two-worlds.png";
 import Poem from "../../../assets/films/between-poem.png";
 import Review from "../../../assets/films/between-review.png";
 import BetweenTwoWorlds from "../../../assets/books/between-two-worlds-new.png";
-
+import EnglishPoem from "../../../assets/audio/Sun_English_Mastered.wav";
+import FrenchPoem from "../../../assets/audio/Sun_French_Mastered.wav";
+import SerbianPoem from "../../../assets/audio/Sun_Serbian_Mastered.wav";
 const Between = () => {
   useEffect(() => window.scrollTo(0, 0));
 
   return (
     <main className="film">
+      
       <div className="container p-0">
         <section
           id="previous-films"
@@ -59,6 +62,45 @@ const Between = () => {
                   </div>
 
                 </div>
+                
+                <div className="row poem-heading mb-2">
+                  <h2>Poems</h2>
+                </div>
+
+                <div className="row audio-poem mb-2">
+                  <div className="col-2">
+                    English Sun Poem
+                  </div>
+                  <div className="col-3">
+                  <audio controls='controls'>
+                  <source src={EnglishPoem} type="audio/wav"/>
+                  </audio>
+                  </div>
+
+                  
+                </div>
+                <div className="row audio-poem mb-2">
+                  <div className="col-2">
+                      French Soleil Poem
+                    </div>
+                    <div className="col-3">
+                    <audio controls='controls'>
+                    <source src={FrenchPoem} type="audio/wav"/>
+                    </audio>
+                    </div>
+                </div>
+
+                <div className="row audio-poem mb-2">
+                  <div className="col-2">
+                      Serbian CYHIIE* Poem
+                    </div>
+                    <div className="col-3">
+                    <audio controls='controls'>
+                    <source src={SerbianPoem} type="audio/wav"/>
+                    </audio>
+                    </div>
+                </div>
+
               </section>
             </div>
           </div>
@@ -67,7 +109,7 @@ const Between = () => {
           <div className="col-12 col-md-11 mx-auto">
             <img src={Poem} alt="Poem" className="img-fluid" />
           </div>
-          <div className="col-12 col-md-11 mx-auto">
+          <div className="col-12 col-md-11 ">
             <img src={Review} alt="Review" className="img-fluid" />
           </div>
         </div>
