@@ -26,11 +26,11 @@ const Between = () => {
               <section className="synopsis container p-3 py-4 py-md-0 m-0">
                 <div className="row m-0 py-4 py-md-0 py-md-5 px-md-0 m-0">
                  
-                  <div className="col-3 align-items-center">
+                  <div className="col-3 align-items-center grey-box ">
                     <img src={BetweenTwoWorlds } alt="" className="img-fluid rounded-4" />
                   </div>
 
-                  <div className="col-9">
+                  <div className="col-8">
                     <p className="mb-3 mb-lg-4">
                       Between Two Worlds is a collection of poems written by the
                       Montenegrin-born poet Miodrag Miloshević, whose life is
@@ -64,12 +64,12 @@ const Between = () => {
                 </div>
                 
                 <div className="row poem-heading mb-2">
-                  <h2>Poems</h2>
+                  <h2>Hear the Poems</h2>
                 </div>
 
                 <div className="row audio-poem mb-2">
                   <div className="col-2">
-                    English Sun Poem
+                    Sun
                   </div>
                   <div className="col-3">
                   <audio controls='controls'>
@@ -81,7 +81,7 @@ const Between = () => {
                 </div>
                 <div className="row audio-poem mb-2">
                   <div className="col-2">
-                      French Soleil Poem
+                     Soleil
                     </div>
                     <div className="col-3">
                     <audio controls='controls'>
@@ -92,7 +92,7 @@ const Between = () => {
 
                 <div className="row audio-poem mb-2">
                   <div className="col-2">
-                      Serbian CYHIIE* Poem
+                  Sonce
                     </div>
                     <div className="col-3">
                     <audio controls='controls'>

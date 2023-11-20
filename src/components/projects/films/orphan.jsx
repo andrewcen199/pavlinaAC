@@ -47,13 +47,17 @@ const Orphan = () => {
               </div>
             </div>
           </div>
+
         </section>
         <div className="p-0 pb-4 px-3 p-xl-5 bg-light">
           <section className="synopsis container p-3 py-4 py-md-0 px-md-5 m-0">
             <div className="row m-0 py-4 py-md-0 py-md-5 px-md-0 px-xl-5 m-0">
-              <div className="col-12 col-md-4 ps-0 pe-0 pe-lg-5 mb-4 mb-md-0 d-flex align-items-center">
+              
+              <div className="col-12 col-md-4 ps-0 pe-0 pe-lg-5 mb-4 mb-md-0 d-flex" id='myHeart'> 
                 <img src={Poster} alt="" className="img-fluid rounded-4" />
               </div>
+
+
               <div className="col-12 col-md-8 pe-0 ps-0 ps-md-5">
                 <p className="mb-3 mb-lg-4">
                   In March of 1969, she was seventeen and he twenty years old,
@@ -73,6 +77,9 @@ const Orphan = () => {
                   half of his heart was now filled. She was molded by the sun,
                   he said, and she was the one.
                 </p>
+
+
+
                 <p className="mb-3 mb-lg-4">
                   That August, they would miss each other, at yet another poetry
                   festival, in the world famous city of Struga, in Macedonia.

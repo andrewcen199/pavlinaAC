@@ -23,6 +23,11 @@ main.film img {
   height: auto;
   object-fit: cover;
 }
+#myHeart{
+  width: 33%;
+  height: 50%;
+  object-fit: cover;
+}
 main.film img.header {
   height: 180px;
   width: auto;
@@ -43,6 +48,15 @@ main.film img.header {
   }
 }
 
-audio-poem{
+.audio-poem{
   line-height: 1.3rem;
+}
+
+.grey-box{
+  background-color: #E0E0E0;
+  height: 100%;
+
+}
+.synopsis{
+  font-size: 1.3rem;
 }
